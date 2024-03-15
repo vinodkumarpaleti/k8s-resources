@@ -8,3 +8,4 @@ spec:
     image: nginx
   - name: side-car
     image: almalinux
+    command: ["sleep", "200"]
